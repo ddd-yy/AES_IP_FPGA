@@ -13,17 +13,12 @@ AES_IP_FPGA is an open-source project focused on designing and implementing an e
 
 ## Project Structure
 
-AES_IP_FPGA/
-│
-├── code/ # Stores the project's Verilog code
-│
-├── ipaes/ # Vivado IP project containing the implementation of the AES encryption core
-│
-├── system_aes/ # The entire SOC project, integrating the AES IP core and performing system verification
-│
-├── testAES.py # Python script for verifying the AES algorithm's encryption results on the software side
-│
-└── testEncryption.txt # Contains plaintext and ciphertext information for verification
+- `AES_IP_FPGA/`
+  - `code/` _Stores the project's Verilog code_
+  - `ipaes/` _Vivado IP project containing the implementation of the AES encryption core_
+  - `system_aes/` _The entire SOC project, integrating the AES IP core and performing system_ verification
+  - `testAES.py` _Python script for verifying the AES algorithm's encryption results on the_ software side
+  - `testEncryption.txt` _Contains plaintext and ciphertext information for verification_
 
 ## Main Work
 
