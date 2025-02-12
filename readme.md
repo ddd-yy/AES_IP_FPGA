@@ -24,7 +24,7 @@ AES_IP_FPGA is an open-source project focused on designing and implementing an e
 
 ### AES Encryption IP Core Design
 
-![img/a.png]
+![](img/a.png)
 
 - **Implementation of AES-128 Algorithm**: The AES-128 encryption algorithm is implemented using Verilog, ensuring the security and reliability of the algorithm.
 
@@ -36,7 +36,7 @@ AES_IP_FPGA is an open-source project focused on designing and implementing an e
 
 ### System Integration
 
-![img/b.png]
+![](img/b.png)
 
 - **Integration in SOC Environment**: The AES IP core is integrated into the SOC environment and synthesized and implemented through Vivado, ensuring the IP core's performance and stability in the actual hardware environment.
 - **System Verification**: A small-scale SOC system is built for verification to ensure the correctness and effectiveness of the AES IP core within the system.
