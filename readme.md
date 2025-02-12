@@ -24,7 +24,10 @@ AES_IP_FPGA is an open-source project focused on designing and implementing an e
 
 ### AES Encryption IP Core Design
 
+![img/a.png]
+
 - **Implementation of AES-128 Algorithm**: The AES-128 encryption algorithm is implemented using Verilog, ensuring the security and reliability of the algorithm.
+
 - **Pipeline Structure**: A pipeline structure is adopted to improve overall data processing speed by breaking down the encryption process into multiple stages, each processing data in parallel.
 
 ### IP Interface Definition
@@ -32,6 +35,8 @@ AES_IP_FPGA is an open-source project focused on designing and implementing an e
 - **Custom IP Interface**: A custom IP interface is designed to allow the AES IP core to integrate flexibly with other components on the FPGA platform, enhancing the system's scalability and flexibility.
 
 ### System Integration
+
+![img/b.png]
 
 - **Integration in SOC Environment**: The AES IP core is integrated into the SOC environment and synthesized and implemented through Vivado, ensuring the IP core's performance and stability in the actual hardware environment.
 - **System Verification**: A small-scale SOC system is built for verification to ensure the correctness and effectiveness of the AES IP core within the system.
