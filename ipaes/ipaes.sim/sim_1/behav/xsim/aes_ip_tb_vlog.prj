@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/AES_Config_Register.v" \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/aes_top.v" \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/afifo_count.v" \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/generate_key.v" \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/mix_columns.v" \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/round_iteration.v" \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/shift_rows.v" \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/sub_bytes.v" \
+"../../../../ipaes.srcs/sources_1/imports/AES128_Entryption/AES_IP_TOP.v" \
+"../../../../ipaes.srcs/sources_1/imports/rtl/aes_ip_v1_0_M00_AXI.v" \
+"../../../../ipaes.srcs/sim_1/imports/src/AES_IP_TB.v" \
+"../../../../ipaes.srcs/sim_1/imports/temp/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
